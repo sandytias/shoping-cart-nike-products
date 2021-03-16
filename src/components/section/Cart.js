@@ -32,11 +32,13 @@ export class Cart extends Component {
                 <p>{item.content}</p>
                 <div className="amount">
                   <button className="count" onClick={() => reduction(item._id)}>
-                    -
+                    {" "}
+                    -{" "}
                   </button>
                   <span>{item.count}</span>
                   <button className="count" onClick={() => increase(item._id)}>
-                    +
+                    {" "}
+                    +{" "}
                   </button>
                 </div>
               </div>
@@ -47,7 +49,7 @@ export class Cart extends Component {
           ))}
           <div className="total">
             <Link to="/payment">Payment</Link>
-            <h3>Total: $ {total}</h3>
+            <h3>Total: ${total}</h3>
           </div>
         </>
       );

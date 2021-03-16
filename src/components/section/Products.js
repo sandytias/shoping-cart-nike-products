@@ -7,7 +7,7 @@ export class Products extends Component {
   static contextType = DataContext;
 
   render() {
-    const { products } = this.context;
+    const { products, addCart } = this.context;
     return (
       <div id="product">
         {products.map((product) => (
@@ -21,9 +21,7 @@ export class Products extends Component {
               </h3>
               <span>${product.price}</span>
               <p>{product.description}</p>
-              <button onClick={() => this.context.addCart(product._id)}>
-                Add to Cart
-              </button>
+              <button onClick={() => addCart(product._id)}>Add to cart</button>
             </div>
           </div>
         ))}

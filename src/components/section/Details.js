@@ -45,7 +45,7 @@ export class Details extends Component {
                 className="cart"
                 onClick={() => addCart(item._id)}
               >
-                Add to Cart
+                Add to cart
               </Link>
             </div>
           </div>

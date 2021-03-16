@@ -23,7 +23,7 @@ export class Header extends Component {
     return (
       <header>
         <div className="menu" onClick={this.menuToggle}>
-          <img src={Menu} alt="" width="20px" />
+          <img src={Menu} alt="" width="20" />
         </div>
         <div className="logo">
           <h1>
@@ -39,10 +39,10 @@ export class Header extends Component {
               <Link to="/product">Product</Link>
             </li>
             <li>
-              <Link to="/contact">Jacket</Link>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/about">Topi</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <Link to="/login">Login / Register</Link>
