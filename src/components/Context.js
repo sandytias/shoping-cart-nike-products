@@ -8,7 +8,8 @@ export class DataProvider extends Component {
       {
         _id: "1",
         title: "Nike Shoes 01",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img1.jpg",
+        src:
+          "https://res.cloudinary.com/dxenadjps/image/upload/v1619102974/images/nike-1_pi31yj.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -19,7 +20,8 @@ export class DataProvider extends Component {
       {
         _id: "2",
         title: "Nike Shoes 02",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img2.jpg",
+        src:
+          "https://res.cloudinary.com/dxenadjps/image/upload/v1619103003/images/nike-2_byk1eh.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -30,7 +32,8 @@ export class DataProvider extends Component {
       {
         _id: "3",
         title: "Nike Shoes 03",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img3.jpg",
+        src:
+          "https://res.cloudinary.com/dxenadjps/image/upload/v1619103012/images/nike-3_tvkdff.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -41,7 +44,8 @@ export class DataProvider extends Component {
       {
         _id: "4",
         title: "Nike Shoes 04",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img4.jpg",
+        src:
+          "https://res.cloudinary.com/dxenadjps/image/upload/v1619103021/images/nike-4_vq98ry.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -52,7 +56,8 @@ export class DataProvider extends Component {
       {
         _id: "5",
         title: "Nike Shoes 05",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img5.jpg",
+        src:
+          "https://res.cloudinary.com/dxenadjps/image/upload/v1619103041/images/nike-5_ninyta.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -63,7 +68,8 @@ export class DataProvider extends Component {
       {
         _id: "6",
         title: "Nike Shoes 06",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img6.jpg",
+        src:
+          "https://res.cloudinary.com/dxenadjps/image/upload/v1619103053/images/nike-6_xkvcdi.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
